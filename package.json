@@ -1,10 +1,9 @@
 {
-  "name": "@sveltejs/adapter-vercel",
-  "version": "1.0.0-next.50",
+  "name": "poncho-adapter-vercel",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sveltejs/kit",
-    "directory": "packages/adapter-vercel"
+    "url": "https://github.com/ponchocare/adapter-vercel"
   },
   "license": "MIT",
   "homepage": "https://kit.svelte.dev",
