@@ -192,9 +192,9 @@ async function v1(builder, external) {
 		])
 	);
 
-	builder.log.minor('Writing function config...');
+	builder.log.minor('Writing functions config...');
 	writeFileSync(
-		`${dir}/config/routes.json`,
+		`${dir}/config/functions.json`,
 		JSON.stringify({
 			"render": {
 				"memory": "3008"
