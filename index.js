@@ -197,7 +197,7 @@ async function v1(builder, external) {
 		`${dir}/config/functions.json`,
 		JSON.stringify({
 			"render": {
-				"memory": "3008"
+				"memory": 3008
 			}
 		})
 	);
