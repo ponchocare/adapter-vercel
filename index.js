@@ -83,7 +83,7 @@ const redirects = {
 /** @type {import('.')} **/
 export default function ({ external = [], edge, split } = {}) {
 	return {
-		name: '@sveltejs/adapter-vercel',
+		name: 'poncho-adapter-vercel',
 
 		async adapt(builder) {
 			if (process.env.ENABLE_VC_BUILD) {
