@@ -203,15 +203,15 @@ async function v1(builder, external) {
     ])
   );
 
-  // builder.log.minor('Writing functions config...');
-  // writeFileSync(
-  // 	`${dir}/config/functions.json`,
-  // 	JSON.stringify({
-  // 		"render": {
-  // 			"memory": 3008
-  // 		}
-  // 	})
-  // );
+  builder.log.minor('Writing functions config...');
+  writeFileSync(
+  	`${dir}/config/functions.json`,
+  	JSON.stringify({
+  		"render": {
+  			"memory": 3008
+  		}
+  	})
+  );
 }
 
 /**
